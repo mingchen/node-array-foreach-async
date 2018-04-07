@@ -1,0 +1,24 @@
+{
+  "name": "array-foreach-async",
+  "version": "1.0.0",
+  "description": "Add forEachAsync() async/await to Array to support async functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mingchen/node-array-foreach-async.git"
+  },
+  "keywords": [
+    "nodejs",
+    "async/await",
+    "foreach"
+  ],
+  "author": "Ming Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mingchen/node-array-foreach-async/issues"
+  },
+  "homepage": "https://github.com/mingchen/node-array-foreach-async#readme"
+}
