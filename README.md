@@ -11,7 +11,8 @@ Add forEachAsync() async/await to Array to support async functions.
 ## API
 
     /**
-     * @param
+     * @param {function} callback function(val, idx, obj)
+     */
     Array.prototype.forEachAsync(callback)
 
 ## Usage
