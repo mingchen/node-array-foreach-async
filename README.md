@@ -1,6 +1,8 @@
 array-foreach-async
 ===================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mingchen/node-array-foreach-async.svg)](https://greenkeeper.io/)
+
 Add forEachAsync() async/await to Array to support async functions.
 
 ## Install
