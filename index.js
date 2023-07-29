@@ -10,9 +10,9 @@
  */
 
 if (!Array.prototype.forEachAsync) {
-    Array.prototype.forEachAsync = async function(callback) {
-        for (let index = 0; index < this.length; index++) {
-            await callback(this[index], index, this);
-        }
+    Array.prototype.forEachAsync = async function (callback) {
+        await Promise.all(this.map((item, index) => {
+            return callback(item, index, this);
+        }));
     };
 }
